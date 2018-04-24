@@ -1,2 +1,2 @@
 Write-Host "Hello world"
-echo "$USER"
+Get-Date -Format g
