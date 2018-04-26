@@ -1,4 +1,3 @@
 echo "Hello World"
-echo $(date +%F)
-echo $user
-whoami
+echo "Today's date:" $(date +%F)
+echo "User: " whoami
