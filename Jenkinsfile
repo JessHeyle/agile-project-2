@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Run Shell Script') {
       steps {
-        echo 'Hello'
+        git(url: 'https://github.com/JessHeyle/agile-project-2', branch: 'master')
       }
     }
   }
